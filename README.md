@@ -1,5 +1,6 @@
 # zh-common-ui
 
-# Project setup
-
+## Project setup
+```
 npm install zh-common-ui
+```
