@@ -1,0 +1,32 @@
+{
+  "name": "zh-common-ui",
+  "author": "mfj <1547414196@qq.com>",
+  "description": "这是一个私有的公司公共组件",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "ui",
+    "common-ui",
+    "zh-common-ui"
+  ],
+  "main": "lib/zh-common-ui.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build-lib": "vue-cli-service build --report --target lib --name zh-common-ui --dest lib packages/index.js",
+    "npm:publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MH121017/zh-common-ui.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-router": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
