@@ -1,7 +1,7 @@
-import chooseIndustry from './src/chooseIndustry.vue';
+import industry from './src/industry.vue';
 
-chooseIndustry.install = function(Vue) {
-  Vue.component(chooseIndustry.name, chooseIndustry)
+industry.install = function(Vue) {
+  Vue.component(industry.name, industry)
 }
 
-export default chooseIndustry
+export default industry

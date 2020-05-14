@@ -1,7 +1,7 @@
-import chooseArea from './src/chooseArea.vue';
+import region from './src/region.vue';
 
-chooseArea.install = function (Vue) {
-  Vue.component(chooseArea.name, chooseArea)
+region.install = function (Vue) {
+  Vue.component(region.name, region)
 }
 
-export default chooseArea
+export default region

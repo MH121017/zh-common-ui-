@@ -1,7 +1,7 @@
-import chooseCompanyPerson from './src/chooseCompanyPerson.vue';
+import companyPerson from './src/companyPerson.vue';
 
-chooseCompanyPerson.install = function (Vue) {
-  Vue.component(chooseCompanyPerson.name, chooseCompanyPerson)
+companyPerson.install = function (Vue) {
+  Vue.component(companyPerson.name, companyPerson)
 }
 
-export default chooseCompanyPerson
+export default companyPerson

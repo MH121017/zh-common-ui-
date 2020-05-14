@@ -1,7 +1,7 @@
-import chooseEnterprise from './src/chooseEnterprise.vue';
+import enterpriseInfo from './src/enterpriseInfo.vue';
 
-chooseEnterprise.install = function(Vue) {
-  Vue.component(chooseEnterprise.name, chooseEnterprise)
+enterpriseInfo.install = function(Vue) {
+  Vue.component(enterpriseInfo.name, enterpriseInfo)
 }
 
-export default chooseEnterprise
+export default enterpriseInfo
