@@ -30,7 +30,7 @@
 </template>
 <script>
 export default {
-	name: 'tree-checkbox',
+	name: 'zhTreeCheckbox',
 	props: {
 		treeData: {
 			type: Array,

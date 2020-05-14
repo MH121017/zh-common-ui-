@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name: 'videoPlayer',
+  name: 'zhVideoPlayer',
   props: {
     options: {
       type: Object,

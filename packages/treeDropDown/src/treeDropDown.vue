@@ -41,7 +41,7 @@
 </template>
 <script>
 export default {
-  name: "treeDropDown",
+  name: "zhTreeDropDown",
   props: {
     data: {
       type: Array,

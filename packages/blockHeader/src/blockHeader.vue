@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-  name: "secondHeader",
+  name: "zhBlockHeader",
   props: {
     type: {
       type: String,

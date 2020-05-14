@@ -2,7 +2,7 @@
   "name": "zh-common-ui",
   "author": "mfj <1547414196@qq.com>",
   "description": "这是一个私有的公司公共组件",
-  "version": "0.1.2",
+  "version": "0.1.18",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -10,7 +10,7 @@
     "common-ui",
     "zh-common-ui"
   ],
-  "main": "lib/zh-common-ui.umd.min.js",
+  "main": "lib/zh-common-ui.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build-lib": "vue-cli-service build --report --target lib --name zh-common-ui --dest lib packages/index.js",

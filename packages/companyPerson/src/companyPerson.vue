@@ -45,6 +45,7 @@
 import companyEmployee from "../../api/company/companyEmployee";
 import companyDepartment from "../../api/company/companyDepartment";
 export default {
+  name:"zhCompanyPerson",
   props: {
     title: {
       // dialog标题
@@ -141,4 +142,3 @@ export default {
   }
 };
 </script>
-<style scoped></style>

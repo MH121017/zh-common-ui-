@@ -75,7 +75,7 @@
 <script>
 import companyService from "../../api/secutity/company";
 export default {
-  name: "chooseEnterprise",
+  name: "zhEnterpriseInfo",
   props: {
     isLuShangShiYou: {
       type: Boolean,

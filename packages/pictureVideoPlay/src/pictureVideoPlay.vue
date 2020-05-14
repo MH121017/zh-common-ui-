@@ -38,6 +38,7 @@
 </template>
 <script>
 export default {
+	name:"zhPictureVideoPlay",
 	props: {
 		type: {
 			type: String,

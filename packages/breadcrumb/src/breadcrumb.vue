@@ -16,7 +16,7 @@
 import pathToRegexp from "path-to-regexp";
 
 export default {
-  name: "breadcrumb",
+  name: "zhBreadcrumb",
   data() {
     return {
       levelList: null

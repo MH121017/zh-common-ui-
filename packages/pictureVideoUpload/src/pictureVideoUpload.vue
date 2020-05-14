@@ -84,6 +84,7 @@ import { getToken } from '../../utils/auth'
 import { getGuidGenerator } from '../../utils/public'
 import fileService from '../../api/common/accessoryFile'
 export default {
+	name:"zhPictureVideoUpload",
 	props: {
 		query: {
 			type: Object,

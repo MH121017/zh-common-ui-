@@ -24,3 +24,18 @@ export function getGuidGenerator() {
     S4()
   );
 }
+
+/**
+ * 判断字符串是否为null或空
+ * @param {String} str
+ */
+export function isNullOrEmpty(str) {
+	return str == null || str == ''
+}
+/**
+ * 判断字符串不为null或空
+ * @param {String} str
+ */
+export function isNotNullOrEmpty(str) {
+	return str != null && str != ''
+}

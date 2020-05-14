@@ -37,7 +37,7 @@
 <script>
 import econTreeService from '../../api/register/nationalEconomyType'
 export default {
-	name: 'IndustrySubordinateTree',
+	name: 'zhIndustry',
 	data() {
 		return {
 			loading: false,

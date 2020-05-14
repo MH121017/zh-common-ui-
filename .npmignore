@@ -21,6 +21,7 @@ yarn-error.log*
 *.sln
 *.sw?
 .browserslistrc
+*.html
 
 package-lock.json
 babel.config.js

@@ -156,6 +156,7 @@
 </template>
 <script>
 export default {
+	name: 'compreSearch',
 	props: {
 		// 需要显示的功能
 		layout: {
