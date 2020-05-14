@@ -5,8 +5,10 @@ import companyPerson from './companyPerson/index' // 选择企业人员
 import compreSearch from './compreSearch/index' // 公共查询组件
 import enterpriseInfo from './enterpriseInfo/index'
 import hamburger from './hamburger/index'
-import industry from './industry/index'
+import iframe from './iframe/index';
+import industry from './industry/index' // 选择行业
 import nationalIndustriesClassificaton from './nationalIndustriesClassificaton/index' // 国民经济分类
+import pdf from './pdf/index';
 import persionnel from './persionnel/index' // 选择人员
 import pictureVideoPlay from './pictureVideoPlay/index' // 图片视频播放组件
 import pictureVideoUpload from './pictureVideoUpload/index' // 图片视频上传组件
@@ -26,9 +28,11 @@ const components = [
 	companyPerson,
 	compreSearch,
 	enterpriseInfo,
-	hamburger,
+  hamburger,
+  iframe,
 	industry,
-	nationalIndustriesClassificaton,
+  nationalIndustriesClassificaton,
+  pdf,
 	persionnel,
 	pictureVideoPlay,
 	pictureVideoUpload,
@@ -47,11 +51,6 @@ const install = function(Vue, opts = {}) {
 	Vue.prototype.$SAFETYUI = {
 		url: opts.url || '',
 	}
-	console.log('store', Vue)
-
-	// Object.keys(opts.store.state).forEach( key => {
-	//   opts.store.registerModule(key,opts.store.state[key])
-	// })
 
 	setValue('safetyUIUrl', opts.url || '')
 	// 遍历注册全局组件
