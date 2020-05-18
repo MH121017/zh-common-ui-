@@ -85,7 +85,7 @@ export default {
 				// 查询区域id
 				id: null,
 				parentId: null,
-				pageSize: 30
+				pageSize: 50
 			},
 			queryGridData: {
 				// 查询网格id

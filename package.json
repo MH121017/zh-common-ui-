@@ -1,24 +1,24 @@
 {
-  "name": "zh-common-ui",
+  "name": "zh-framework",
   "author": "mfj <1547414196@qq.com>",
   "description": "这是一个私有的公司公共组件",
-  "version": "0.1.19",
+  "version": "0.1.0",
   "license": "MIT",
   "private": false,
   "keywords": [
     "ui",
-    "common-ui",
-    "zh-common-ui"
+    "framework",
+    "zh-framework"
   ],
-  "main": "lib/zh-common-ui.common.js",
+  "main": "lib/zh-framework.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build-lib": "vue-cli-service build --report --target lib --name zh-common-ui --dest lib packages/index.js",
+    "build-lib": "vue-cli-service build --report --target lib --name zh-framework --dest lib packages/index.js",
+    "npm:install": "npm install",
     "npm:publish": "npm publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MH121017/zh-common-ui.git"
+  "publishConfig": {
+    "registry": "http://49.4.52.220:8081/repository/npm-hosted/"
   },
   "dependencies": {},
   "devDependencies": {
